@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>Home</title>
+		<title>雨夜中最明亮的六芒星</title>
 
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
@@ -73,9 +73,9 @@
 						<li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+86 18817713656</li>
 						<li class="lang">
 							<span class="current">Language</span>
-							<ul>
-								<li><a href="index.html">中文</a></li>
-								<li><a href="index_en.html">English</a></li>
+							<ul style="width: 100px">
+								<li><a href="index.html">中文</a><br/></li>
+								<li><a href="index_en.html">English</a><br/></li>
 							</ul>
 						</li>
 						<!-- Search Icon -->
@@ -91,7 +91,7 @@
 					<div class="menu-holder">
 						<ul>
 							<li><a href="index.html">主页</a></li>
-							<li><a href="about.html">关于</a></li>
+							<li><a href="about.html">关于我们</a></li>
 							<li><a href="services.html">更新日志</a></li>
 							<li><a href="contact.html">联系我们</a></li>
 						</ul>
@@ -113,9 +113,9 @@
 						<li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+86 18817713656</li>
 						<li class="lang">
 							<span class="current">Language</span>
-							<ul>
-								<li><a href="index.html">中文</a></li>
-								<li><a href="index_en.html">English</a></li>
+							<ul style="width: 100px">
+								<li><a href="index.html">中文</a><br/></li>
+								<li><a href="index_en.html">English</a><br/></li>
 							</ul>
 						</li>
 						<!-- Search Icon -->
@@ -128,12 +128,17 @@
 			<div id="header-searchform">
 				<form class="search-form">
 					<div class="form-input">
-						<input type="text" placeholder="Search...">
+						<input type="text" placeholder="请输入搜索内容...">
 						<span class="form-button-close">
 							<button type="button"><i class="material-icons">close</i></button>
 						</span>
 						<span class="form-button">
-							<button type="button">Search</button>
+							<script>
+								function SearchNoSupport() {
+									alert("抱歉，暂不支持搜索功能，请使用页内查找。");
+								}
+							</script>
+							<button type="button" onclick="SearchNoSupport()">搜索</button>
 						</span>
 					</div>
 				</form>
@@ -161,10 +166,10 @@
 						</li>
 						<li style="background-image:url(img/slider3.jpg)">
 							<div class="text center">
-								<h1 class="heading center white margin-bottom-small flex-animation no-opacity">Grow your business</h1>
-								<p class="heading white center margin-bottom flex-animation no-opacity">The best Corporate HTML Template. Download now!</p>
+								<h1 class="heading center white margin-bottom-small flex-animation no-opacity">你最喜爱的星座</h1>
+								<p class="heading white center margin-bottom flex-animation no-opacity">每个人都有自己喜爱的星座，或许是抬头所见，或许是归途伴侣，又或许是自己或所爱之人的黄道星座……<br/>快来为自己喜爱的星座应援投票吧！</p>
 								<div class="padding-onlytop-md flex-animation no-opacity">
-									<a href="" class="btn-alt small shadow margin-xs-bottom-small">Download Now</a>
+									<a href="http://113.31.114.121:3389/sign-vote" class="btn-alt small shadow margin-xs-bottom-small">开始投票！</a>
 								</div>
 							</div>
 							<div class="gradient dark"></div>
@@ -189,10 +194,10 @@
 						<div class="row no-margin padding-onlytop-lg">
 							<div class="col-md-6 padding-leftright-null">
 								<div data-responsive="parent-height" data-responsive-id="about" class="text">
-									<h2 class="margin-bottom-null left">About Us</h2>
+									<h2 class="margin-bottom-null left">关于我们</h2>
 									<div class="padding-onlytop-sm">
-										<p class="margin-bottom grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis</p>
-										<a href="#" class="btn-pro">Read More</a>
+										<p class="margin-bottom grey">《雨夜中最明亮的六芒星》由六芒星工作室于2021年2月8日宣布开发，是一款以星座为主题，架空世界为背景，有二次元风格的RPG游戏。</p>
+										<a href="about.html" class="btn-pro">阅读更多</a>
 									</div>
 								</div>
 							</div>
@@ -211,15 +216,15 @@
 						<div class="container padding-lg">
 							<div class="row no-margin">
 								<div class="col-md-12 padding-leftright-null text-center">
-									<h2 class="margin-bottom-small left">Our Services</h2>
+									<h2 class="margin-bottom-small left">游戏特色</h2>
 								</div>
 								<div class="row no-margin">
 									<div class="col-md-6 padding-leftright-null">
 										<div class="text padding-md-bottom-null">
-											<i class="material-icons color service left">business</i>
+											<i class="material-icons color service left">accessibility_new</i>
 											<div class="service-content large">
-												<h3 class="margin-bottom-extrasmall">Business Goals</h3>
-												<p class="margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem harum aspernatur sapiente error, voluptas fuga, laudantium ullam magni fugit. Qui!</p>
+												<h3 class="margin-bottom-extrasmall">角色爆率</h3>
+												<p class="margin-bottom-null">角色抽卡爆率较高，养成成本被大大降低。所有资源皆有不通过氪金获得的渠道。</p>
 											</div>
 										</div>
 									</div>
@@ -227,8 +232,8 @@
 										<div class="text padding-md-bottom-null">
 											<i class="material-icons color service left">people</i>
 											<div class="service-content large">
-												<h3 class="margin-bottom-extrasmall">Professional Team</h3>
-												<p class="margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem harum aspernatur sapiente error, voluptas fuga, laudantium ullam magni fugit. Qui!</p>
+												<h3 class="margin-bottom-extrasmall">社交系统</h3>
+												<p class="margin-bottom-null">简约的好友系统，并支持玩家进入他人世界共同游玩。个人资源不会被偷取。</p>
 											</div>
 										</div>
 									</div>
@@ -236,10 +241,10 @@
 								<div class="row no-margin">
 									<div class="col-md-6 padding-leftright-null">
 										<div class="text padding-md-bottom-null">
-											<i class="material-icons color service left">lightbulb_outline</i>
+											<i class="material-icons color service left">nightlight_round</i>
 											<div class="service-content large">
-												<h3 class="margin-bottom-extrasmall">Vision</h3>
-												<p class="margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem harum aspernatur sapiente error, voluptas fuga, laudantium ullam magni fugit. Qui!</p>
+												<h3 class="margin-bottom-extrasmall">天气系统</h3>
+												<p class="margin-bottom-null">游戏拥有非常真实的天气系统，包括太阳系内天体运行与系外较明亮恒星的相对位置。</p>
 											</div>
 										</div>
 									</div>
@@ -247,8 +252,8 @@
 										<div class="text padding-md-bottom-null">
 											<i class="material-icons color service left">headset_mic</i>
 											<div class="service-content large">
-												<h3 class="margin-bottom-extrasmall">Support 24/24</h3>
-												<p class="margin-bottom-null">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem harum aspernatur sapiente error, voluptas fuga, laudantium ullam magni fugit. Qui!</p>
+												<h3 class="margin-bottom-extrasmall">剧情与音乐</h3>
+												<p class="margin-bottom-null">魔法世界中天马行空的幻想与无奈的现实交织，友情与爱情的若隐若现，剧情无疑是本游戏的亮点。辅以原创歌曲与伴奏，情感契合完美，回味无穷。</p>
 											</div>
 										</div>
 									</div>
