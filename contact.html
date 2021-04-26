@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Access-Control-Allow-Origin" content="*" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title></title>
 
@@ -68,34 +69,36 @@
                 </div>
                 <!--  END Header Logo  -->
                 <div class="secondary-menu">
-                    <ul>
-                        <li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:info@domain.com">info@domain.com</a></li>
-                        <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+39 123456789</li>
-                        <li class="lang">
-                            <span class="current"><a href="#">En</a></span>
-                            <ul>     
-                                <li><a href="#">It</a></li>
-                            </ul>
-                        </li>
-                        <!-- Search Icon -->
-                        <li class="search">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </li>
-                    </ul>
-                </div>
+					<ul>
+						<li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:10185101162@stu.ecnu.edu.cn">10185101162@stu.ecnu.edu.cn</a></li>
+						<li class="phone"><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/Hexagram2021/Hexagram2021/issues">GitHub: Hexagram2021</a></li>
+						<li class="lang">
+							<span class="current">Language</span>
+							<script>function NoEnglish() { alert("Because of my poor English, this website does not support English vision yet. I'm so sorry and I'm going to fix it after everything else is done."); }</script>
+							<ul style="width: 100px">
+								<li><a href="index.html">中文</a><br/></li>
+								<li><a href="javascript:NoEnglish();">English</a><br/></li>
+							</ul>
+						</li>
+						<!-- Search Icon -->
+						<li class="search">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</li>
+					</ul>
+				</div>
             </div>
             <nav class="navbar navbar-default">
                 <!--  Classic menu, responsive menu classic  -->
                 <div id="menu-classic">
-                    <div class="menu-holder">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="contact.html">Contacts</a></li>
-                        </ul>
-                    </div>
-                </div>
+					<div class="menu-holder">
+						<ul>
+							<li><a href="index.html">主页</a></li>
+							<li><a href="about.html">关于我们</a></li>
+							<li><a href="services.html">更新日志</a></li>
+							<li><a href="contact.html">联系我们</a></li>
+						</ul>
+					</div>
+				</div>
                 <!--  END Classic menu, responsive menu classic  -->
                 <!--  Button for Responsive Menu Classic  -->
                 <div id="menu-responsive-classic">
@@ -107,35 +110,41 @@
                 </div>
                 <!--  END Button for Responsive Menu Classic  -->
                 <div class="secondary-menu-mobile">
-                    <ul>
-                        <li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:info@domain.com">info@domain.com</a></li>
-                        <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+39 123456789</li>
-                        <li class="lang">
-                            <span class="current"><a href="#">En</a></span>
-                            <ul>     
-                                <li><a href="#">It</a></li>
-                            </ul>
-                        </li>
-                        <!-- Search Icon -->
-                        <li class="search">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </li>
-                    </ul>
-                </div>
+					<ul>
+						<li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:10185101162@stu.ecnu.edu.cn">10185101162@stu.ecnu.edu.cn</a></li>
+						<li class="phone"><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/Hexagram2021/Hexagram2021/issues">GitHub: Hexagram2021</a></li>
+						<li class="lang">
+							<span class="current">Language</span>
+							<ul style="width: 100px">
+								<li><a href="index.html">中文</a><br/></li>
+								<li><a href="javascript:NoEnglish();">English</a><br/></li>
+							</ul>
+						</li>
+						<!-- Search Icon -->
+						<li class="search">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</li>
+					</ul>
+				</div>
             </nav>
             <div id="header-searchform">
-                <form class="search-form">
-                    <div class="form-input">
-                        <input type="text" placeholder="Search...">
-                        <span class="form-button-close">
-                            <button type="button"><i class="material-icons">close</i></button>
-                        </span>
-                        <span class="form-button">
-                            <button type="button">Search</button>
-                        </span>
-                    </div>
-                </form>
-            </div>
+				<form class="search-form">
+					<div class="form-input">
+						<input type="text" placeholder="请输入搜索内容...">
+						<span class="form-button-close">
+							<button type="button"><i class="material-icons">close</i></button>
+						</span>
+						<span class="form-button">
+							<script>
+								function SearchNoSupport() {
+									alert("抱歉，暂不支持搜索功能，请使用页内查找。");
+								}
+							</script>
+							<button type="button" onclick="SearchNoSupport()">搜索</button>
+						</span>
+					</div>
+				</form>
+			</div>
         </header>
         <!--  END Header & Menu  -->
             
@@ -148,10 +157,10 @@
                     <div class="container">
                         <div class="row no-margin">
                             <div class="text">
-                                <h1 class="white">Contact.</h1>
+                                <h1 class="white">联系我们</h1>
                                 <ul class="breadcrumb white">
-                                    <li><a href="#">Home</a></li>
-                                    <li>Contact</li>
+                                    <li><a href="index.html">主页</a></li>
+                                    <li>联系我们</li>
                                 </ul>
                             </div>
                         </div>
@@ -172,23 +181,32 @@
                                 <div class="col-md-5 padding-leftright-null">
                                     <div class="text padding-md-top-null">
                                         <div class="box-form">
-                                            <form id="contact-form">
+                                            <form id="contact-form"> <!-- action="http://113.31.114.121:3389/suggest" method="POST" -->
                                                 <div class="row no-margin">
                                                     <div class="col-md-12 padding-leftright-null">
-                                                        <label for="name">Name<sup>*</sup></label>
-                                                        <input class="form-field" name="name" id="name" type="text" placeholder="Your Name">
+                                                        <label for="name">姓名<sup>*</sup></label>
+                                                        <input class="form-field" name="name" id="name" type="text" placeholder="您的名字">
                                                     </div>
                                                     <div class="col-md-12 padding-leftright-null">
-                                                        <label for="mail">Email<sup>*</sup></label>
-                                                        <input class="form-field" name="mail" id="mail" type="text" placeholder="Your Email">
+                                                        <label for="mail">电子邮箱<sup>*</sup></label>
+                                                        <input class="form-field" name="email" id="email" type="text" placeholder="您的电子邮箱">
                                                     </div>
                                                 </div>
                                                 <div class="row no-margin">
                                                     <div class="col-md-12 padding-leftright-null">
-                                                        <label for="messageForm">Message<sup>*</sup></label>
-                                                        <textarea class="form-field" name="messageForm" id="messageForm" rows="6" placeholder="Your Message"></textarea>
+                                                        <label for="messageForm">反馈内容<sup>*</sup></label>
+                                                        <textarea class="form-field" name="messageForm" id="messageForm" rows="6" placeholder="请输入您的反馈"></textarea>
+														<script>
+															function postCORSForm() {
+																let form_name = document.getElementById("name").value;
+																let form_email = document.getElementById("email").value;
+																let form_message = document.getElementById("messageForm").value;
+																window.location.href = `http://localhost:3389/suggest?name=${form_name}&email=${form_email}&message=${form_message}`
+															}
+														</script>
                                                         <div class="submit-area padding-onlytop-sm">
-                                                            <input type="submit" id="submit-contact" class="btn-alt active shadow" value="Send Message">
+															<input type="button" id="submit-contact" class="btn-alt active shadow" value="发送反馈" onclick="postCORSForm()" />
+                                                            <!-- input type="submit" id="submit-contact" class="btn-alt active shadow" value="发送反馈" -->
                                                             <div id="msg" class="message"></div>
                                                         </div>
                                                     </div>
@@ -277,7 +295,7 @@
 						<p>华东师范大学<br>上海市普陀区长风街道中山北路3663号</p>
 					</div>
 					<div class="col-md-4 text small">
-						<h4 class="heading white margin-bottom-small weight-300">Important link</h4>
+						<h4 class="heading white margin-bottom-small weight-300">相关链接</h4>
 						<ul class="info">
 							<li><a href="index.html">主页</a></li>
 							<li><a href="about.html">关于我们</a></li>
